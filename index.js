@@ -1,7 +1,5 @@
 function getFirstSelector(selector){
-  return document
-    .getElementById('app')
-    .querySelector('#nested .target')
+  return document.querySelector(selector);
 }
 
 function nestedTarget(){
